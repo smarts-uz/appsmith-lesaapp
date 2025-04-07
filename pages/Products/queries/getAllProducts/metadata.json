@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "67f2b9e9eaeec147fade89ce_63a1efee-7f43-4d08-a335-a11bc0e60ae8",
-  "id": "Products_getBundledItemMetadata",
+  "gitSyncId": "67f2b9e9eaeec147fade89ce_1cd30130-634f-464c-b95f-f0aa3025b13f",
+  "id": "Products_getAllProducts",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n  bundled_item_id,\n  meta_key,\n  meta_value\nFROM wp_woocommerce_bundled_itemmeta\nWHERE bundled_item_id IN ({{bundledItemIds}});\n",
+      "body": "CALL get_products(NULL, NULL);\nSELECT 1+1;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,13 +22,9 @@
       "name": "LesaApp",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "executeOnLoad": false,
-    "name": "getBundledItemMetadata",
+    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "name": "getAllProducts",
     "pageId": "Products",
     "userSetOnLoad": false
   }

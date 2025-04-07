@@ -1,0 +1,2 @@
+CALL get_products(NULL, NULL);
+SELECT 1+1;
