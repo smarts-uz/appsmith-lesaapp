@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownClose"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uuhcahpt5v",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Country",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "onDropdownClose": "",
+  "onOptionChange": "{{fetch_users.run();\nresetWidget(\"list_users\", true);}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 17,
+  "originalTopRow": 10,
+  "parentColumnSpace": 23.578125,
+  "parentId": "o2rxh0tnh6",
+  "parentRowSpace": 10,
+  "placeholderText": "Any",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 43,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"United States\",\n    \"value\": \"United States\"\n  },\n  {\n    \"label\": \"Australia\",\n    \"value\": \"Australia\"\n  },\n  {\n    \"label\": \"United Kingdom\",\n    \"value\": \"United Kingdom\"\n  },\n\t{\n    \"label\": \"France\",\n    \"value\": \"France\"\n  },\n  {\n    \"label\": \"Spain\",\n    \"value\": \"Spain\"\n  },\n\t{\n    \"label\": \"China\",\n    \"value\": \"China\"\n  },\n\t{\n    \"label\": \"Germany\",\n    \"value\": \"Germany\"\n  },\n\t{\n    \"label\": \"Chile\",\n    \"value\": \"Chile\"\n  }\n]",
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "rgcfekuvi0",
+  "widgetName": "sel_country"
+}

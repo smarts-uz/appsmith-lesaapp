@@ -1,0 +1,2 @@
+DELETE FROM wp_wc_orders
+  WHERE id = {{data_table.triggeredRow.id}};

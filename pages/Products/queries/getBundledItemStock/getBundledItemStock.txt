@@ -1,0 +1,6 @@
+SELECT 
+  post_id as product_id,
+  meta_value
+FROM wp_postmeta
+WHERE post_id IN ({{bundledProductIds}})
+AND meta_key = '_stock'; 

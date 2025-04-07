@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 29,
+  "boxShadow": "none",
+  "decimals": 0,
+  "defaultCurrencyCode": "USD",
+  "defaultText": "",
+  "displayName": "Currency Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "lfeyujr91z",
+  "label": "Sale Price",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 19,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 38,
+  "originalTopRow": 34,
+  "parentColumnSpace": 15.125,
+  "parentId": "0njshrrzuy",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter sale price",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 37,
+  "searchTags": [
+    "amount",
+    "total"
+  ],
+  "showStepArrows": false,
+  "tooltip": "Price at which the product will be sold",
+  "topRow": 21,
+  "type": "CURRENCY_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "yewa19kbdi",
+  "widgetName": "inp_productSalePrice"
+}

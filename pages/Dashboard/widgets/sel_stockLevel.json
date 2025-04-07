@@ -1,0 +1,57 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 80,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fj5c87ojig",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 53,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{utils.getProducts()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 12.688995361328125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Stock level",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Low stock\",\n    \"value\": \"Low stock\"\n  },\n  {\n    \"label\": \"Out of stock\",\n    \"value\": \"Out of stock\"\n  }\n]",
+  "topRow": 76,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "djgw7y43fs",
+  "widgetName": "sel_stockLevel"
+}

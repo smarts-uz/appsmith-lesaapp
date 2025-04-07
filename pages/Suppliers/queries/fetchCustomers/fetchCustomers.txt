@@ -1,0 +1,32 @@
+SELECT 
+  u.ID as id, 
+  u.user_login as username, 
+  u.user_email as email, 
+  u.display_name as displayName, 
+  u.phone,
+  cl.first_name as firstName, 
+  cl.last_name as lastName, 
+  u.user_registered as dateRegistered,
+  cl.date_last_active as lastActive,
+  cl.country,
+  cl.city,
+  cl.state,
+  cl.postcode
+FROM wp_users u
+LEFT JOIN wp_wc_customer_lookup cl ON u.ID = cl.user_id
+WHERE EXISTS (
+	SELECT 1 FROM wp_usermeta um 
+	WHERE um.user_id = u.ID 
+	AND um.meta_key = 'wp_capabilities' 
+	AND um.meta_value LIKE '%customer%'
+)
+AND (
+	{{searchTerm}} = '' OR
+	u.user_login LIKE CONCAT('%', {{searchTerm || ""}}, '%') OR
+	u.user_email LIKE CONCAT('%', {{searchTerm}}, '%') OR
+	u.display_name LIKE CONCAT('%', {{searchTerm}}, '%') OR
+	cl.first_name LIKE CONCAT('%', {{searchTerm}}, '%') OR
+	cl.last_name LIKE CONCAT('%', {{searchTerm}}, '%')
+)
+ORDER BY u.user_registered DESC
+LIMIT {{limit}} OFFSET {{(page-1) * limit}};

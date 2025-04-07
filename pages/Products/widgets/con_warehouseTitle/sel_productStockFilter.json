@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.URL.queryParams.filter || 'All products'))(sel_productStockFilter.options, sel_productStockFilter.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fj5c87ojig",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 18,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{utils.getProducts()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 12.688995361328125,
+  "parentId": "khfwdoqepk",
+  "parentRowSpace": 10,
+  "placeholderText": "Stock status",
+  "renderMode": "CANVAS",
+  "rightColumn": 29,
+  "serverSideFiltering": false,
+  "sourceData": "[\n{\n    \"label\": \"All products\",\n    \"value\": \"All products\"\n  },\n  {\n    \"label\": \"Low stock\",\n    \"value\": \"Low stock\"\n  },\n  {\n    \"label\": \"Out of stock\",\n    \"value\": \"Out of stock\"\n  }\n]",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "7rdmjhr0ug",
+  "widgetName": "sel_productStockFilter"
+}

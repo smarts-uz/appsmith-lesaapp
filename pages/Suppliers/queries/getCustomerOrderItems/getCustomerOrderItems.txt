@@ -1,0 +1,13 @@
+SELECT 
+  oi.order_item_id as itemId,
+  oi.order_item_name as name,
+  opl.product_id as productId,
+  opl.variation_id as variationId,
+  opl.product_qty as quantity,
+  opl.product_net_revenue as netPrice,
+  opl.product_gross_revenue as grossPrice,
+  opl.tax_amount as taxAmount
+FROM wp_woocommerce_order_items oi
+JOIN wp_wc_order_product_lookup opl ON oi.order_item_id = opl.order_item_id
+WHERE oi.order_id = {{orderId}}
+AND oi.order_item_type = 'line_item';

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67f2b9e9eaeec147fade89ce_191621a1-d3a3-4388-97c5-f494200fe056",
+  "id": "List Lookup_dynamic",
+  "unpublishedCollection": {
+    "name": "dynamic",
+    "pageId": "List Lookup",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "quantities",
+        "value": "{}"
+      }
+    ]
+  }
+}

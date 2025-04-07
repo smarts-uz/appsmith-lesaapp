@@ -1,0 +1,28 @@
+INSERT INTO wp_wc_orders (
+	id,
+	status,
+	currency,
+	type,
+	tax_amount,
+	total_amount,
+	customer_id,
+	billing_email,
+	date_created_gmt,
+	date_updated_gmt,
+	parent_order_id,
+	payment_method
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.status}}',
+	'{{insert_form.formData.currency}}',
+	'{{insert_form.formData.type}}',
+	'{{insert_form.formData.tax_amount}}',
+	'{{insert_form.formData.total_amount}}',
+	'{{insert_form.formData.customer_id}}',
+	'{{insert_form.formData.billing_email}}',
+	'{{insert_form.formData.date_created_gmt}}',
+	'{{insert_form.formData.date_updated_gmt}}',
+	'{{insert_form.formData.parent_order_id}}',
+	'{{insert_form.formData.payment_method}}'
+);

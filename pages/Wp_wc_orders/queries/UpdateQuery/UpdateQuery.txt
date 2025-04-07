@@ -1,0 +1,13 @@
+UPDATE wp_wc_orders SET
+		status = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}',
+		currency = '{{update_form.fieldState.currency.isVisible ? update_form.formData.currency : update_form.sourceData.currency}}',
+    type = '{{update_form.fieldState.type.isVisible ? update_form.formData.type : update_form.sourceData.type}}',
+		tax_amount = '{{update_form.fieldState.tax_amount.isVisible ? update_form.formData.tax_amount : update_form.sourceData.tax_amount}}',
+		total_amount = '{{update_form.fieldState.total_amount.isVisible ? update_form.formData.total_amount : update_form.sourceData.total_amount}}',
+		customer_id = '{{update_form.fieldState.customer_id.isVisible ? update_form.formData.customer_id : update_form.sourceData.customer_id}}',
+		billing_email = '{{update_form.fieldState.billing_email.isVisible ? update_form.formData.billing_email : update_form.sourceData.billing_email}}',
+		date_created_gmt = '{{update_form.fieldState.date_created_gmt.isVisible ? update_form.formData.date_created_gmt : update_form.sourceData.date_created_gmt}}',
+		date_updated_gmt = '{{update_form.fieldState.date_updated_gmt.isVisible ? update_form.formData.date_updated_gmt : update_form.sourceData.date_updated_gmt}}',
+		parent_order_id = '{{update_form.fieldState.parent_order_id.isVisible ? update_form.formData.parent_order_id : update_form.sourceData.parent_order_id}}',
+		payment_method = '{{update_form.fieldState.payment_method.isVisible ? update_form.formData.payment_method : update_form.sourceData.payment_method}}'
+  WHERE id = {{data_table.selectedRow.id}};

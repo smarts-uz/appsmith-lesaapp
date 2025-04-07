@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67f2b9e9eaeec147fade89ce_e46767eb-b9e5-4f00-abdb-30fa03e510fb",
+  "id": "Suppliers_customer",
+  "unpublishedCollection": {
+    "name": "customer",
+    "pageId": "Suppliers",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

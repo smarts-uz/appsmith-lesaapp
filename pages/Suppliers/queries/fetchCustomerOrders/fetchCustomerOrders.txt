@@ -1,0 +1,19 @@
+SELECT 
+  os.order_id as id,
+  os.status,
+  os.date_created as dateCreated,
+  os.date_paid as datePaid,
+  os.date_completed as dateCompleted,
+  os.total_sales as totalSales,
+  os.net_total as netTotal,
+  os.tax_total as taxTotal,
+  os.shipping_total as shippingTotal,
+  os.num_items_sold as itemCount,
+  o.payment_method as paymentMethod,
+  o.payment_method_title as paymentMethodTitle,
+  o.transaction_id as transactionId
+FROM wp_wc_order_stats os
+LEFT JOIN wp_wc_orders o ON os.order_id = o.id
+WHERE os.customer_id = {{customerId}}
+ORDER BY os.date_created DESC
+LIMIT {{limit}} OFFSET {{(page-1) * limit}};

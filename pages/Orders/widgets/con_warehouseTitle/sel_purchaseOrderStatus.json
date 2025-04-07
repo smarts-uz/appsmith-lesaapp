@@ -1,0 +1,60 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.URL.queryParams.filter ? appsmith.URL.queryParams.filter : 'ALL'))(sel_purchaseOrderStatus.options, sel_purchaseOrderStatus.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fj5c87ojig",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{utils.getPurchaseOrders()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 12.688995361328125,
+  "parentId": "khfwdoqepk",
+  "parentRowSpace": 10,
+  "placeholderText": "Purchase Order Status",
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"All\",\n    \"value\": \"ALL\"\n  },\n  {\n    \"label\": \"Received\",\n    \"value\": \"RECEIVED\"\n  },\n  {\n    \"label\": \"Unfulfilled\",\n    \"value\": \"UNFULFILLED\"\n  },\n\t  {\n    \"label\": \"Cancelled\",\n    \"value\": \"CANCELLED\"\n  }\n]",
+  "topRow": 1,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "rg6tca3lrc",
+  "widgetName": "sel_purchaseOrderStatus"
+}

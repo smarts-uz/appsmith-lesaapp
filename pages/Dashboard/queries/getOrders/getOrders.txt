@@ -1,0 +1,1 @@
+CALL get_orders('wc-completed', NULL, NULL, NULL, NULL, NULL);

@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 35,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "arrow-top-right",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6h7wgm6l90",
+  "leftColumn": 53,
+  "onClick": "{{navigateTo('Purchase Orders',{\nfilter: 'FULFILLED'\n}, 'SAME_WINDOW')}}",
+  "parentColumnSpace": 4.2578125,
+  "parentId": "dizgkcmqt3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 58,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 31,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gc96dn1gzn",
+  "widgetName": "icn_sideBarArrowCopy"
+}

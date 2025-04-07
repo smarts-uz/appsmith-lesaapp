@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 38,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( utils.getChartProducts.data[0] ? utils.getChartProducts.data[0].VariationId : ''))(sel_product.options, sel_product.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "fj5c87ojig",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 16,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{utils.productWarehouseChartData()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 12.688995361328125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Choose Product",
+  "renderMode": "CANVAS",
+  "rightColumn": 27,
+  "serverSideFiltering": false,
+  "sourceData": "{{utils.getChartProducts.data.map(p => {\n\treturn {\n\t\tlabel: p.Name,\n\t\tvalue: p.VariationId,\n\t}\n})}}",
+  "topRow": 34,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "7uzm5tnsex",
+  "widgetName": "sel_product"
+}

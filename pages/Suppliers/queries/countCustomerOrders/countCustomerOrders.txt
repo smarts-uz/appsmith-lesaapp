@@ -1,0 +1,3 @@
+SELECT COUNT(*) as total
+FROM wp_wc_order_stats
+WHERE customer_id = {{customerId}};

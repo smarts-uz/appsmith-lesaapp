@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowCurrencyChange": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 21,
+  "boxShadow": "none",
+  "decimals": 0,
+  "defaultCurrencyCode": "USD",
+  "defaultText": "",
+  "displayName": "Currency Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "lfeyujr91z",
+  "label": "Product Cost",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 19,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
+  "parentColumnSpace": 15.125,
+  "parentId": "0njshrrzuy",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter cost price",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 37,
+  "searchTags": [
+    "amount",
+    "total"
+  ],
+  "showStepArrows": false,
+  "tooltip": "Amount you paid the supplier",
+  "topRow": 13,
+  "type": "CURRENCY_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "corm0okfbr",
+  "widgetName": "inp_productCostPrice"
+}

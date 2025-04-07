@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowDialCodeChange": true,
+  "allowFormatting": true,
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultDialCode": "+1",
+  "defaultText": "{{tbl_suppliers.triggeredRow ? tbl_suppliers.triggeredRow.Phone : ''}}",
+  "displayName": "Phone Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.108789d7165de30306435ab3c24e6cad.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ard49rxrly",
+  "label": "Phone Number",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "labelWidth": 5,
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 6.84375,
+  "parentId": "dfv90jdllb",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter a valid phone number",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 53,
+  "searchTags": [
+    "call"
+  ],
+  "topRow": 5,
+  "type": "PHONE_INPUT_WIDGET",
+  "version": 1,
+  "widgetId": "qq9oy5lpqi",
+  "widgetName": "inp_supplierDetailPhone"
+}

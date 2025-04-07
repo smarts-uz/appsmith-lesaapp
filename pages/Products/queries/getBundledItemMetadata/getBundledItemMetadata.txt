@@ -1,0 +1,6 @@
+SELECT 
+  bundled_item_id,
+  meta_key,
+  meta_value
+FROM wp_woocommerce_bundled_itemmeta
+WHERE bundled_item_id IN ({{bundledItemIds}});
