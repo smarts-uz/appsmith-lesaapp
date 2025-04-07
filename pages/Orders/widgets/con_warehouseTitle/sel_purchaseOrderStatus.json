@@ -51,7 +51,7 @@
   "renderMode": "CANVAS",
   "rightColumn": 32,
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"label\": \"All\",\n    \"value\": \"ALL\"\n  },\n  {\n    \"label\": \"Received\",\n    \"value\": \"RECEIVED\"\n  },\n  {\n    \"label\": \"Unfulfilled\",\n    \"value\": \"UNFULFILLED\"\n  },\n\t  {\n    \"label\": \"Cancelled\",\n    \"value\": \"CANCELLED\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"label\": \"All\",\n    \"value\": \"ALL\"\n  },\n  {\n    \"label\": \"Completed\",\n    \"value\": \"wc-completed\"\n  },\n  {\n    \"label\": \"Unfulfilled\",\n    \"value\": \"UNFULFILLED\"\n  },\n\t{\n    \"label\": \"Cancelled\",\n    \"value\": \"CANCELLED\"\n  },\n\t{\n    \"label\": \"Processing\",\n    \"value\": \"wc_processing\"\n  }\n]",
   "topRow": 1,
   "type": "SELECT_WIDGET",
   "version": 1,

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 12,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -12,6 +12,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -25,30 +28,30 @@
   "isLoading": false,
   "isVisible": true,
   "key": "leob5o664k",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 6,
-  "originalTopRow": 1,
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
   "overflow": "NONE",
-  "parentColumnSpace": 4.4248046875,
-  "parentId": "uyifh43a6s",
+  "parentColumnSpace": 1.640625,
+  "parentId": "1udceicz0b",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 22,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Subtotal",
+  "text": "Supplier:  {{appsmith.store.selectedOrder?.customer_id || ''}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 8,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ovehuvxx32",
-  "widgetName": "txt_subtotal"
+  "widgetId": "v4tadwgt0j",
+  "widgetName": "txt_supplier"
 }

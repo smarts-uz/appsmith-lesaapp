@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 686,
+  "bottomRow": 77,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
-      "bottomRow": 660,
+      "bottomRow": 770,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -19,7 +19,7 @@
       "isVisible": true,
       "key": "r0wgrw3r4f",
       "leftColumn": 0,
-      "minHeight": 714,
+      "minHeight": 710,
       "parentColumnSpace": 1,
       "parentId": "ggiplpttmi",
       "parentRowSpace": 1,
@@ -42,7 +42,7 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "height": 660,
+  "height": 770,
   "hideCard": false,
   "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
   "isCanvas": true,
@@ -52,7 +52,7 @@
   "leftColumn": 9,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
-  "minHeight": 660,
+  "minHeight": 770,
   "originalBottomRow": 856,
   "originalTopRow": 26,
   "parentColumnSpace": 19.8125,
@@ -71,5 +71,5 @@
   "version": 2,
   "widgetId": "ggiplpttmi",
   "widgetName": "OrderDetailsModal",
-  "width": 904
+  "width": 962
 }

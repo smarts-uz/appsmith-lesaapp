@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 24,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -14,7 +14,7 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
@@ -25,30 +25,31 @@
   "isLoading": false,
   "isVisible": true,
   "key": "leob5o664k",
-  "leftColumn": 2,
-  "maxDynamicHeight": 9000,
-  "minDynamicHeight": 4,
-  "originalBottomRow": 6,
-  "originalTopRow": 1,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9,
+  "minDynamicHeight": 8,
+  "originalBottomRow": 24,
+  "originalTopRow": 16,
   "overflow": "NONE",
-  "parentColumnSpace": 4.4248046875,
-  "parentId": "uyifh43a6s",
+  "parentColumnSpace": 1.640625,
+  "parentId": "1udceicz0b",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 22,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
+  "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "Subtotal",
+  "text": "Warehouse Address: ",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 16,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ovehuvxx32",
-  "widgetName": "txt_subtotal"
+  "widgetId": "cdohazilsb",
+  "widgetName": "txt_warehouseAddress"
 }

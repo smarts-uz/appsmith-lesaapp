@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 4,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -25,30 +25,30 @@
   "isLoading": false,
   "isVisible": true,
   "key": "leob5o664k",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 6,
-  "originalTopRow": 1,
+  "originalBottomRow": 64,
+  "originalTopRow": 60,
   "overflow": "NONE",
-  "parentColumnSpace": 4.4248046875,
-  "parentId": "uyifh43a6s",
+  "parentColumnSpace": 2.666015625,
+  "parentId": "nmnjn6ehc1",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 22,
+  "rightColumn": 62,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Subtotal",
+  "text": "Order Info",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ovehuvxx32",
-  "widgetName": "txt_subtotal"
+  "widgetId": "3dpv05mkt2",
+  "widgetName": "txt_productsPurchasedCopy"
 }
