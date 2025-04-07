@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 90,
+  "bottomRow": 88,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
-      "bottomRow": 900,
+      "bottomRow": 880,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -42,7 +42,7 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "height": 900,
+  "height": 880,
   "hideCard": false,
   "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
   "isCanvas": true,
@@ -52,7 +52,7 @@
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
-  "minHeight": 900,
+  "minHeight": 880,
   "originalBottomRow": 83,
   "originalTopRow": 93,
   "parentColumnSpace": 19.8125,

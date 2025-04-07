@@ -3,20 +3,20 @@
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderWidth": "1",
-  "bottomRow": 86,
+  "bottomRow": 26,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 860,
+      "bottomRow": 250,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 450.625,
+      "minHeight": 30.625,
       "parentColumnSpace": 1,
-      "parentId": "cylwiv9tvz",
+      "parentId": "rh76ry2gfe",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -25,18 +25,18 @@
         "detachFromLayout": true
       },
       "renderMode": "CANVAS",
-      "rightColumn": 280,
+      "rightColumn": 179.375,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "jhpgzw96ue",
-      "widgetName": "Canvas40Copy"
+      "widgetId": "ksntvarprl",
+      "widgetName": "Canvas30CopyCopy"
     }
   ],
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -46,9 +46,9 @@
   "isLoading": false,
   "isVisible": true,
   "key": "ab8job6rpy",
-  "leftColumn": 0,
-  "maxDynamicHeight": 9000,
-  "minDynamicHeight": 10,
+  "leftColumn": 28,
+  "maxDynamicHeight": 26,
+  "minDynamicHeight": 25,
   "minWidth": 450,
   "needsErrorInfo": false,
   "onCanvasUI": {
@@ -58,14 +58,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 86,
-  "originalTopRow": 0,
-  "parentColumnSpace": 4.375,
-  "parentId": "1tcvuvu4c2",
+  "originalBottomRow": 26,
+  "originalTopRow": 1,
+  "parentColumnSpace": 4.5,
+  "parentId": "wadzpi7kd0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 46,
   "searchTags": [
     "div",
     "parent",
@@ -77,9 +77,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 0,
+  "topRow": 1,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "cylwiv9tvz",
-  "widgetName": "Container20Copy"
+  "widgetId": "rh76ry2gfe",
+  "widgetName": "Container10CopyCopy"
 }

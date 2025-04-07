@@ -3,20 +3,20 @@
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderWidth": "1",
-  "bottomRow": 86,
+  "bottomRow": 84,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 860,
+      "bottomRow": 490,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 450.625,
+      "minHeight": 205.625,
       "parentColumnSpace": 1,
-      "parentId": "cylwiv9tvz",
+      "parentId": "fe9m9q1i0z",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -29,14 +29,14 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "jhpgzw96ue",
-      "widgetName": "Canvas40Copy"
+      "widgetId": "7v6hklktbj",
+      "widgetName": "Canvas35CopyCopyCopy"
     }
   ],
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -47,7 +47,7 @@
   "isVisible": true,
   "key": "ab8job6rpy",
   "leftColumn": 0,
-  "maxDynamicHeight": 9000,
+  "maxDynamicHeight": 51,
   "minDynamicHeight": 10,
   "minWidth": 450,
   "needsErrorInfo": false,
@@ -58,10 +58,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 86,
-  "originalTopRow": 0,
+  "originalBottomRow": 84,
+  "originalTopRow": 35,
   "parentColumnSpace": 4.375,
-  "parentId": "1tcvuvu4c2",
+  "parentId": "jhpgzw96ue",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -77,9 +77,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 0,
+  "topRow": 35,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "cylwiv9tvz",
-  "widgetName": "Container20Copy"
+  "widgetId": "fe9m9q1i0z",
+  "widgetName": "Container15CopyCopyCopy"
 }

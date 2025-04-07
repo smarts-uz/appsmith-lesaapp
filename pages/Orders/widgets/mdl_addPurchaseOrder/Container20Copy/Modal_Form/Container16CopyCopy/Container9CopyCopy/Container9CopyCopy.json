@@ -2,21 +2,21 @@
   "animateLoading": true,
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
-  "borderWidth": "1",
-  "bottomRow": 86,
+  "borderWidth": "0",
+  "bottomRow": 12,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 860,
+      "bottomRow": 120,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 450.625,
+      "minHeight": 48.125,
       "parentColumnSpace": 1,
-      "parentId": "cylwiv9tvz",
+      "parentId": "ag891ft0b1",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -25,18 +25,18 @@
         "detachFromLayout": true
       },
       "renderMode": "CANVAS",
-      "rightColumn": 280,
+      "rightColumn": 87.5,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "jhpgzw96ue",
-      "widgetName": "Canvas40Copy"
+      "widgetId": "ad0xfqqlq1",
+      "widgetName": "Canvas29CopyCopy"
     }
   ],
   "containerStyle": "card",
   "displayName": "Container",
   "dynamicBindingPathList": [],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "AUTO_HEIGHT_WITH_LIMITS",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "hideCard": false,
@@ -47,8 +47,8 @@
   "isVisible": true,
   "key": "ab8job6rpy",
   "leftColumn": 0,
-  "maxDynamicHeight": 9000,
-  "minDynamicHeight": 10,
+  "maxDynamicHeight": 15,
+  "minDynamicHeight": 11,
   "minWidth": 450,
   "needsErrorInfo": false,
   "onCanvasUI": {
@@ -58,10 +58,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 86,
+  "originalBottomRow": 12,
   "originalTopRow": 0,
-  "parentColumnSpace": 4.375,
-  "parentId": "1tcvuvu4c2",
+  "parentColumnSpace": 1.3671875,
+  "parentId": "25ihsh4yhb",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -80,6 +80,6 @@
   "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "cylwiv9tvz",
-  "widgetName": "Container20Copy"
+  "widgetId": "ag891ft0b1",
+  "widgetName": "Container9CopyCopy"
 }

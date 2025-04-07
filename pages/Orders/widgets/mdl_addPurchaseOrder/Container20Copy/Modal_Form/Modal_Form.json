@@ -2,21 +2,21 @@
   "animateLoading": true,
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
-  "borderWidth": "1",
-  "bottomRow": 86,
+  "borderWidth": "0\n",
+  "bottomRow": 34,
   "boxShadow": "NONE",
   "children": [
     {
-      "bottomRow": 860,
+      "bottomRow": 280,
       "canExtend": false,
       "containerStyle": "none",
       "detachFromLayout": true,
       "isLoading": false,
       "isVisible": true,
       "leftColumn": 0,
-      "minHeight": 450.625,
+      "minHeight": 121.5,
       "parentColumnSpace": 1,
-      "parentId": "cylwiv9tvz",
+      "parentId": "hdp9kk7t24",
       "parentRowSpace": 1,
       "props": {
         "canExtend": false,
@@ -25,12 +25,12 @@
         "detachFromLayout": true
       },
       "renderMode": "CANVAS",
-      "rightColumn": 280,
+      "rightColumn": 288,
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "jhpgzw96ue",
-      "widgetName": "Canvas40Copy"
+      "widgetId": "wadzpi7kd0",
+      "widgetName": "Canvas38CopyCopy"
     }
   ],
   "containerStyle": "card",
@@ -58,10 +58,10 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 86,
-  "originalTopRow": 0,
-  "parentColumnSpace": 4.375,
-  "parentId": "1tcvuvu4c2",
+  "originalBottomRow": 34,
+  "originalTopRow": 6,
+  "parentColumnSpace": 4.5,
+  "parentId": "jhpgzw96ue",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -77,9 +77,9 @@
     "Layout"
   ],
   "thumbnailSVG": "/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 0,
+  "topRow": 6,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "cylwiv9tvz",
-  "widgetName": "Container20Copy"
+  "widgetId": "hdp9kk7t24",
+  "widgetName": "Modal_Form"
 }
