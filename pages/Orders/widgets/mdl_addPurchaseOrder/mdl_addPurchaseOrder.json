@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 83,
+  "bottomRow": 90,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
   "children": [
     {
-      "bottomRow": 830,
+      "bottomRow": 900,
       "canExtend": true,
       "detachFromLayout": true,
       "displayName": "Canvas",
@@ -19,7 +19,7 @@
       "isVisible": true,
       "key": "pkoc8l8gxx",
       "leftColumn": 0,
-      "minHeight": 830,
+      "minHeight": 1314,
       "parentColumnSpace": 1,
       "parentId": "bh35yti3q3",
       "parentRowSpace": 1,
@@ -40,9 +40,9 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "height": 830,
+  "height": 900,
   "hideCard": false,
   "iconSVG": "/static/media/icon.4975978e9a961fb0bfb4e38de7ecc7c5.svg",
   "isCanvas": true,
@@ -52,7 +52,9 @@
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
-  "minHeight": 830,
+  "minHeight": 900,
+  "originalBottomRow": 83,
+  "originalTopRow": 93,
   "parentColumnSpace": 19.8125,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -63,11 +65,11 @@
     "popup",
     "notification"
   ],
-  "shouldScrollContents": false,
+  "shouldScrollContents": true,
   "topRow": 93,
   "type": "MODAL_WIDGET",
   "version": 2,
   "widgetId": "bh35yti3q3",
   "widgetName": "mdl_addPurchaseOrder",
-  "width": 942
+  "width": 1098
 }

@@ -339,9 +339,6 @@
     },
     {
       "key": "cellBackground"
-    },
-    {
-      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
