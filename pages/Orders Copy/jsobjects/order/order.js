@@ -16,12 +16,5 @@ export default {
 				value: p.ID
 			};
 		});
-	},
-	getSelectCustomers: () => {
-		return getAllCustomers.data.filter(p => p.id)
-			.map(p => ({
-			label: `${p.username}`,
-			value: p.id
-		}));
 	}
 };

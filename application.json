@@ -48,7 +48,7 @@
       "isDefault": false
     },
     {
-      "id": "Suppliers",
+      "id": "Customers",
       "isDefault": false
     },
     {
@@ -57,6 +57,10 @@
     },
     {
       "id": "Wp_wc_orders",
+      "isDefault": false
+    },
+    {
+      "id": "Orders Copy",
       "isDefault": false
     }
   ],

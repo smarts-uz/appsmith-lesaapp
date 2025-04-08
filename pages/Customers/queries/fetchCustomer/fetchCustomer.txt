@@ -1,0 +1,2 @@
+CALL get__customer_list();
+select 1+1;

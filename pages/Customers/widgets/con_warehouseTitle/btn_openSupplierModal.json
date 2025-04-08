@@ -4,7 +4,7 @@
   "bottomRow": 5,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
@@ -30,8 +30,8 @@
   "isLoading": false,
   "isVisible": true,
   "key": "68lr0x8to1",
-  "leftColumn": 57,
-  "onClick": "{{showModal(Add_Order_Modal.name);}}",
+  "leftColumn": 55,
+  "onClick": "{{showModal('mdl_addSupplier')}}",
   "parentColumnSpace": 6.6943359375,
   "parentId": "khfwdoqepk",
   "parentRowSpace": 10,
@@ -44,10 +44,10 @@
     "click",
     "submit"
   ],
-  "text": "New Order",
+  "text": "Mijoz qo'shish",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "70l1ijvxmv",
-  "widgetName": "btn_addPurchaseOrder"
+  "widgetName": "btn_openSupplierModal"
 }

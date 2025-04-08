@@ -31,7 +31,7 @@
   "isVisible": true,
   "key": "68lr0x8to1",
   "leftColumn": 57,
-  "onClick": "{{showModal(Add_Order_Modal.name);}}",
+  "onClick": "{{showModal('mdl_addPurchaseOrder')}}",
   "parentColumnSpace": 6.6943359375,
   "parentId": "khfwdoqepk",
   "parentRowSpace": 10,

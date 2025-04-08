@@ -1,20 +1,19 @@
 {
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "borderRadius": "1.5rem",
+  "bottomRow": 59,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -22,32 +21,34 @@
   ],
   "hideCard": false,
   "iconAlign": "left",
-  "iconName": "plus",
+  "iconName": "tick",
   "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
   "isDefaultClickDisabled": true,
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "68lr0x8to1",
-  "leftColumn": 57,
-  "onClick": "{{showModal(Add_Order_Modal.name);}}",
-  "parentColumnSpace": 6.6943359375,
-  "parentId": "khfwdoqepk",
+  "key": "0qiexam129",
+  "leftColumn": 46,
+  "onClick": "{{utils.handleMarkReceived()}}",
+  "originalBottomRow": 79,
+  "originalTopRow": 73,
+  "parentColumnSpace": 2.666015625,
+  "parentId": "28xe34zc7y",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"
   ],
-  "text": "New Order",
-  "topRow": 0,
+  "text": "Mark Received",
+  "topRow": 54,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "70l1ijvxmv",
-  "widgetName": "btn_addPurchaseOrder"
+  "widgetId": "rhoqyvnapx",
+  "widgetName": "btn_markReceived"
 }

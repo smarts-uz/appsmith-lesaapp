@@ -1,12 +1,11 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 4,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
-  "disabledWhenInvalid": false,
-  "displayName": "Button",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -15,39 +14,39 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
     }
   ],
   "hideCard": false,
-  "iconAlign": "left",
-  "iconName": "plus",
-  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
-  "isDefaultClickDisabled": true,
+  "iconName": "cross",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "iconSize": 24,
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "68lr0x8to1",
-  "leftColumn": 57,
-  "onClick": "{{showModal(Add_Order_Modal.name);}}",
-  "parentColumnSpace": 6.6943359375,
-  "parentId": "khfwdoqepk",
+  "key": "f2quyfcmsc",
+  "leftColumn": 60.74576271186441,
+  "onClick": "{{closeModal(OrderDetailsModal.name);\nstoreValue('selectedOrder', null);\n}}",
+  "parentColumnSpace": 4.033203125,
+  "parentId": "s8jou7exa0",
   "parentRowSpace": 10,
-  "placement": "CENTER",
-  "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
   "rightColumn": 64,
   "searchTags": [
     "click",
     "submit"
   ],
-  "text": "New Order",
   "topRow": 0,
-  "type": "BUTTON_WIDGET",
+  "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "70l1ijvxmv",
-  "widgetName": "btn_addPurchaseOrder"
+  "widgetId": "dn2akx4a0r",
+  "widgetName": "icn_closePurchaseOrderConfirm"
 }
