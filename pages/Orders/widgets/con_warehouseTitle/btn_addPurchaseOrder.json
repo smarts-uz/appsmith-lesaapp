@@ -30,7 +30,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "68lr0x8to1",
-  "leftColumn": 55,
+  "leftColumn": 57,
   "onClick": "{{showModal('mdl_addPurchaseOrder')}}",
   "parentColumnSpace": 6.6943359375,
   "parentId": "khfwdoqepk",

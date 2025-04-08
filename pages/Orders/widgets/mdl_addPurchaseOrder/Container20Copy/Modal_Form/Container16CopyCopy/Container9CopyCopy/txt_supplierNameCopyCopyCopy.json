@@ -42,7 +42,7 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Supplier Address",
+  "text": "Customer Address",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,

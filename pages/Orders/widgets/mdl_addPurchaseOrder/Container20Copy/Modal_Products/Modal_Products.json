@@ -2,7 +2,7 @@
   "animateLoading": true,
   "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
-  "borderWidth": "1",
+  "borderWidth": "0",
   "bottomRow": 84,
   "boxShadow": "NONE",
   "children": [
@@ -81,5 +81,5 @@
   "type": "CONTAINER_WIDGET",
   "version": 1,
   "widgetId": "fe9m9q1i0z",
-  "widgetName": "Container15CopyCopyCopy"
+  "widgetName": "Modal_Products"
 }

@@ -28,7 +28,7 @@
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 5,
+  "originalBottomRow": 4,
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 1.982421875,
@@ -42,7 +42,7 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "Supplier Name",
+  "text": "Customer Name",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,
