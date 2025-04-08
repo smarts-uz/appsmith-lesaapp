@@ -1,2 +1,2 @@
-CALL get_products(NULL, NULL);
+CALL get__products(NULL, NULL);
 SELECT 1+1;
