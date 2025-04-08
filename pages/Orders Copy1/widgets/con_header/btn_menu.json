@@ -1,0 +1,103 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "displayName": "Menu Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItembfox91roho.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    },
+    {
+      "key": "menuItems.menuItem8h40bey7xc.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3s5cf1ys7e.onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "menu",
+  "iconSVG": "/static/media/icon.0341d17d.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "xhh0ol5f83",
+  "label": "",
+  "leftColumn": 60,
+  "menuColor": "#fafafa",
+  "menuItems": {
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Dashboard",
+      "onClick": "{{navigateTo('Dashboard', {})}}",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Purchase Orders",
+      "onClick": "{{navigateTo('Purchase Orders', {})}}",
+      "widgetId": ""
+    },
+    "menuItem3s5cf1ys7e": {
+      "id": "menuItem3s5cf1ys7e",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Suppliers",
+      "onClick": "{{navigateTo('Suppliers', {}, 'SAME_WINDOW')}}",
+      "widgetId": "z64tuw7dzi"
+    },
+    "menuItem8h40bey7xc": {
+      "id": "menuItem8h40bey7xc",
+      "index": 4,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Warehouses",
+      "onClick": "{{navigateTo('Warehouses', {}, 'SAME_WINDOW')}}",
+      "widgetId": "2dqe57r1cm"
+    },
+    "menuItembfox91roho": {
+      "id": "menuItembfox91roho",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Products",
+      "onClick": "{{navigateTo('Products', {})}}",
+      "widgetId": "u91c9yytwt"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "parentColumnSpace": 12.01953125,
+  "parentId": "tmbvh49qet",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "sourceDataKeys": [],
+  "topRow": 2,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "umcfx15zfm",
+  "widgetName": "btn_menu"
+}

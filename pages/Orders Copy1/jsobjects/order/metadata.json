@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67f2b9e9eaeec147fade89ce_cb435ccf-cd1f-4f96-93c5-679f4ecca49f",
+  "id": "Orders Copy1_order",
+  "unpublishedCollection": {
+    "name": "order",
+    "pageId": "Orders Copy1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

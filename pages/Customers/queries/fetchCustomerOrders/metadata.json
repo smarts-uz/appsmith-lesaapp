@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT \n  os.order_id as id,\n  os.status,\n  os.date_created as dateCreated,\n  os.date_paid as datePaid,\n  os.date_completed as dateCompleted,\n  os.total_sales as totalSales,\n  os.net_total as netTotal,\n  os.tax_total as taxTotal,\n  os.shipping_total as shippingTotal,\n  os.num_items_sold as itemCount,\n  o.payment_method as paymentMethod,\n  o.payment_method_title as paymentMethodTitle,\n  o.transaction_id as transactionId\nFROM wp_wc_order_stats os\nLEFT JOIN wp_wc_orders o ON os.order_id = o.id\nWHERE os.customer_id = {{customerId}}\nORDER BY os.date_created DESC\nLIMIT {{limit}} OFFSET {{(page-1) * limit}};\n",
+      "body": "CALL get__order_list_by_customer({{tbl_suppliers.triggeredRow.id}});\nSELECT 1+1;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "fetchCustomerOrders",
     "pageId": "Customers",
     "userSetOnLoad": false

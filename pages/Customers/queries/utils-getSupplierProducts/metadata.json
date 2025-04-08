@@ -25,7 +25,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "fullyQualifiedName": "utils.getSupplierProducts",
     "name": "getSupplierProducts",
     "pageId": "Customers",

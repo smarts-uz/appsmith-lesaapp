@@ -1,0 +1,2 @@
+CALL get__products(NULL, NULL);
+SELECT 1+1;

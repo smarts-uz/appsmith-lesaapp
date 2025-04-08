@@ -1,0 +1,2 @@
+CALL get__order_by_id({{appsmith.store.currentOrderId}});
+SELECT 1+1;

@@ -1,7 +1,29 @@
 export default {
-	createProduct: async () => {
-		// Future logic for creating a product
-		return null;
+	addProduct: (productId, quantity, price) => {
+		const product = order.getProductById(productId);
+		if (!product) return;
+
+		const currentCart = appsmith.store.cartItems || [];
+		const existingItem = currentCart.find(item => item.product_id === productId);
+
+		const newQuantity = existingItem
+		? (existingItem.quantity + (parseInt(quantity) || 1))
+		: (parseInt(quantity) || 1);
+
+		const cartItem = {
+			product_id: product.ID,
+			price: parseFloat(price) || parseFloat(product.sale_price || product.regular_price) || 0,
+			quantity: newQuantity
+		};
+
+		const updatedCart = currentCart.filter(item => item.product_id !== productId);
+		storeValue('cartItems', [...updatedCart, cartItem]);
+	},
+	removeProduct: (productId) => {
+		const currentCart = appsmith.store.cartItems || [];
+		const updatedCart = currentCart.filter(item => item.product_id !== productId);
+
+		storeValue('cartItems', updatedCart);
 	},
 	getSelectProducts: () => {
 		return getAllProducts.data
@@ -16,6 +38,10 @@ export default {
 				value: p.ID
 			};
 		});
+	},
+	getProductById: (id) => {
+		if (!id) return null;
+		return getAllProducts.data.find(p => p.ID === id) || null;
 	},
 	getSelectCustomers: () => {
 		return getAllCustomers.data.filter(p => p.id)
